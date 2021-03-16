@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: $bg-color;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+textarea{
+    resize: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1146px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    max-width: 754px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo-inst{
+    max-width: 15px;
+    max-height: 15px;
+}
+.logo-email{
+    width: 15px;
+    height: 12px;
+}
+.logo-vk{
+    width: 18px;
+    height: 10px;
+}
+
+.worksheet-form__area-input::placeholder {
+    font-family: $major-font;
+    color: $link-disable-color;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.worksheet-form__area-input:focus::placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    width: 48%;
+    border-bottom: 2px solid $link-disable-color;
+    // height: 62px;
+}
+
+.form-inner{
+    width: 100%;
+    // height: 122px;
+    margin-bottom: 48px;
+    border-bottom: 2px solid $link-disable-color;
+}
+
+.form-inner--double{
+    // height: 300px;
+}
+
+.worksheet--double{
+    border-bottom: 2px solid $link-disable-color !important;
+}
+
+
+// animation 
+
+@keyframes menu-open{
+    0%{
+        transform: translateX(-100%)
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
