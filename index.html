@@ -20,10 +20,9 @@
               </a>
               <p class="header-logo__text">ДЕТСКО-ЮНОШЕСКАЯ <br> ФУТБОЛЬНАЯ АКАДЕМИЯ <br> ПФК ЦСКА</p>
             </div>
-            <button class="nav__toggle" aria-expanded="true" type="button" aria-label="close menu"
-              style="display: none;">
+            <div class="nav__toggle" style="display: none;">
               <div class="nav__icon btn-hidden"></div>
-            </button>
+          </div>
           </div>
           <div class="header-menu">
             <ul class="header-menu__list">
@@ -65,10 +64,6 @@
             </svg>
           </a>
         </div>
-        <!-- <button> </button> -->
-        <!-- <button class="nav__toggle" aria-expanded="true" type="button" aria-label="close menu" style="display: none;">
-          <div class="nav__icon btn-hidden"></div>
-        </button> -->
       </div>
     </div>
   </header>
@@ -83,7 +78,7 @@
         Заполните, пожалуйста, максимально подробно пункты анкеты.
       </p>
       <div class="worksheet-form">
-        <form class="form" action="">
+        <form class="form">
 
           <input type="hidden" name="project_name" value="ДЕТСКО-ЮНОШЕСКАЯ ФУТБОЛЬНАЯ АКАДЕМИЯ ПФК ЦСКА">
           <input type="hidden" name="admin_email" value="markduho0@gmail.com">
@@ -91,19 +86,19 @@
 
           <div class="worksheet-form__area personal-info">
             <div class="form-wrapper">
-              <textarea class="worksheet-form__area-input" value="name" required name="ФИО. возраст"
+              <textarea class="worksheet-form__area-input" required name="ФИО. возраст"
                 placeholder="1. ФИО, возраст"></textarea>
               <label class="worksheet-form__area-subtitle"></label>
             </div>
 
             <div class="form-wrapper">
-              <textarea class="worksheet-form__area-input" required name="Образование" value="education"
+              <textarea class="worksheet-form__area-input" required name="Образование" 
                 placeholder="2. Образование"></textarea>
               <label class="worksheet-form__area-subtitle"></label>
             </div>
 
             <div class="form-wrapper">
-              <textarea class="worksheet-form__area-input" required name="Телефон" value="number-pgone"
+              <textarea class="worksheet-form__area-input" required name="Телефон" 
                 placeholder="3. Телефон"></textarea>
               <label class="worksheet-form__area-subtitle"></label>
             </div>
@@ -114,13 +109,13 @@
             </div>
 
             <div class="form-wrapper">
-              <textarea class="worksheet-form__area-input" required name="Социальные сети" value="social-network"
+              <textarea class="worksheet-form__area-input" required name="Социальные сети" 
                 placeholder="5. Социальные сети"></textarea>
               <label class="worksheet-form__area-subtitle"></label>
             </div>
 
             <div class="form-wrapper">
-              <textarea class="worksheet-form__area-input" required name="Сфера" value="profession"
+              <textarea class="worksheet-form__area-input" required name="Сфера" 
                 placeholder="6. Сфера, в которой Вы сейчас работаете"></textarea>
               <label class="worksheet-form__area-subtitle"></label>
             </div>
@@ -132,7 +127,7 @@
                 7. Являетесь ли Вы учредителем коммерческой организации или индивидуальным предпринимателем? Если да,
                 укажите организационно-правовую форму, ИНН и название организации.
               </p>
-              <textarea class="worksheet-form__area-input" name="7" value="organization" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="7"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -140,7 +135,7 @@
                 8. Ваш город проживания и планируемый город открытия. Указать желаемое количество открытия футбольных
                 центров ДЮФА ПФК ЦСКА в этом городе.
               </p>
-              <textarea class="worksheet-form__area-input" name="8" value="city" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="8" placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -148,7 +143,7 @@
                 9. Являетесь (являлись) ли Вы франчайзи в настоящий момент (в прошлом)? <br> Если да, какую франшизу Вы
                 приобретали?
               </p>
-              <textarea class="worksheet-form__area-input" name="9" value="franchise" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="9" placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner form-inner--double">
@@ -157,23 +152,23 @@
                 то
                 укажите какие, с каким покрытием и их размеры.
               </p>
-              <textarea class="worksheet-form__area-input worksheet--double" name="собственность" value="property"
+              <textarea class="worksheet-form__area-input worksheet--double" name="собственность" 
                 placeholder="В собственности"></textarea>
-              <textarea class="worksheet-form__area-input" value="rent" name="Аренда" placeholder="В аренде"></textarea>
+              <textarea class="worksheet-form__area-input"  name="Аренда" placeholder="В аренде"></textarea>
             </div>
 
             <div class="form-inner">
               <p class="worksheet-form__area-title">
                 11. Как Вы планируете вести бизнес: с участием партнеров или самостоятельно? Укажите ФИО партнеров.
               </p>
-              <textarea class="worksheet-form__area-input" name="11" value="own-business" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="11"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
               <p class="worksheet-form__area-title">
                 12. Планируется ли использовать заёмные средства? Из каких источников?
               </p>
-              <textarea class="worksheet-form__area-input" name="12" value="cash" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="12"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -181,14 +176,14 @@
                 13. Имеете ли Вы опыт управления предприятием в сфере услуг, либо управления иным бизнесом? Кратко
                 опишите.
               </p>
-              <textarea class="worksheet-form__area-input" name="13" value="experience-in-services" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="13"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
               <p class="worksheet-form__area-title">
                 14. Имеете ли Вы опыт работы в сфере детского футбола? Если да, то какой?
               </p>
-              <textarea class="worksheet-form__area-input" name="14" value="experience-in-sport" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="14" placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -196,7 +191,7 @@
                 15. Имеете ли вы в собственности или в управлении спортивные школы? Если да, то по какому виду спорта и
                 сколько?
               </p>
-              <textarea class="worksheet-form__area-input" name="15" value="have-you" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="15"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -205,7 +200,7 @@
                 квалификацию
                 (высшее образование, лицензия тренера, опыт работы) и возраст.
               </p>
-              <textarea class="worksheet-form__area-input" name="16" value="coach" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="16"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -213,14 +208,14 @@
                 17. Готовы ли Вы лично заниматься непосредственным управлением и развитием футбольного центра ДЮФА ПФК
                 ЦСКА?
               </p>
-              <textarea class="worksheet-form__area-input" name="17" value="are-you-ready" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="17"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
               <p class="worksheet-form__area-title">
                 18. Почему Вас заинтересовала именно эта сфера бизнеса и наша франшиза?
               </p>
-              <textarea class="worksheet-form__area-input" name="18" value="interesting" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="18"  placeholder="Ответ"></textarea>
             </div>
 
             <div class="form-inner">
@@ -228,15 +223,15 @@
                 19. В случае одобрения вашей кандидатуры Управляющей компанией, когда Вы готовы начать открытие
                 футбольного центра ДЮФА ПФК ЦСКА.
               </p>
-              <textarea class="worksheet-form__area-input" name="19" value="ready-to-start" placeholder="Ответ"></textarea>
+              <textarea class="worksheet-form__area-input" name="19"  placeholder="Ответ"></textarea>
             </div>
 
           </div>
           <div class="worksheet-form__area personal-agreement">
             <label class="worksheet-form__area-checkbox">
               <input type="checkbox">
-              <p class="worksheet-form__area-deal">Я согласен на <a class="worksheet-form__area-agreement"
-                  href="#!">обработку персональных данных</a></p>
+              <span class="worksheet-form__area-deal">Я согласен на <a class="worksheet-form__area-agreement"
+                  href="#!">обработку персональных данных</a></span>
             </label>
 
             <p class="worksheet-form__area-text">Представленные данные конфиденциальны <br>
